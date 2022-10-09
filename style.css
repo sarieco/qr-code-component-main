@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--lightGray);
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+    --blue: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.card {
+    background-color: var(--white);
+    width: 360px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px 15px 15px 15px;
+    height: 550px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+img {
+    margin: 20px 10px 15px 10px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: var(--darkBlue);
+    margin: 10px 25px 25px 20px;
+}
+
+p {
+    color: var(--grayishBlue);
+    margin: 20px 45px 35px 35px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.attribution a {
+    color: var(--blue);  
+}
